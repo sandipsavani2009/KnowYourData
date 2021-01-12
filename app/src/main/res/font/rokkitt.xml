@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:fontStyle="normal" android:font="@font/lato_black" />
+    <font android:fontStyle="normal" android:font="@font/lato_bold" />
+    <font android:fontStyle="normal" android:font="@font/lato_hairline" />
+    <font android:fontStyle="normal" android:font="@font/lato_light" />
+    <font android:fontStyle="normal" android:font="@font/lato_regular" />
+    <font android:fontStyle="normal" android:font="@font/proxima_nova_bold" />
+    <font android:fontStyle="normal" android:font="@font/proxima_nova_light" />
+    <font android:fontStyle="normal" android:font="@font/proxima_nova_regular" />
+    <font android:fontStyle="normal" android:font="@font/proxima_nova_semibold" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_black" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_bold" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_extra_bold" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_extra_light" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_light" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_medium" />
+    <font android:fontStyle="normal" android:font="@font/lato_regular" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_semi_bold" />
+    <font android:fontStyle="normal" android:font="@font/rokkitt_thin" />
+</font-family>
