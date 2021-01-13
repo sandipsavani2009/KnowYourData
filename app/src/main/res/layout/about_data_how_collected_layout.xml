@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_20"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ways Data Collected from Device"
+        android:textSize="@dimen/sp_22"
+        android:textColor="@color/green_disable"
+        android:fontFamily="@font/rokkitt_extra_bold"
+        android:layout_marginTop="@dimen/dim_100"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Default permissions granted by system to Apps"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/grey_808080"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="@dimen/dim_60"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Critical permissions where user consent is required"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/grey_808080"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="@dimen/dim_40"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restricted Data (e.g. User stat, Contacts)"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/grey_808080"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="@dimen/dim_5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restricted Actions (e.g. Recording audio, Connecting to bluetooth)"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/grey_808080"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="@dimen/dim_5"/>
+
+</LinearLayout>

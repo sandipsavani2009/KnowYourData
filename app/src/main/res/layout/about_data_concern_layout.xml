@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dim_30"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dim_20"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Data a Concern?"
+        android:textSize="@dimen/sp_28"
+        android:textColor="@color/yellow_blink_color"
+        android:fontFamily="@font/rokkitt_extra_bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data needed for different reasons, which could be sometimes in favour or against user interests"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/grey_999999"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="@dimen/dim_20"
+        android:layout_marginBottom="@dimen/dim_50"/>
+
+</LinearLayout>

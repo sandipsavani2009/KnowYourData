@@ -23,7 +23,7 @@ class SplashActivity: BaseActivity() {
     }
 
     private fun launchHome() {
-        mHomeLaunchHandler.postDelayed({ startActivity(Intent(this, HomeActivity::class.java)) }, 10000)
+        mHomeLaunchHandler.postDelayed({ startActivity(Intent(this, HomeActivity::class.java)) }, 1000)
     }
 
 }

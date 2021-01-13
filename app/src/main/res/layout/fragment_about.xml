@@ -3,9 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".features.home.about.AboutFragment"
-    android:background="@android:color/holo_green_dark">
+    tools:context=".features.home.about.ui.AboutFragment"
+    android:background="@color/blue_0f1d2c_90">
 
-
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/about_data_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/book_background"
+        android:padding="@dimen/dim_15"
+        android:layout_marginTop="@dimen/dim_20"
+        android:layout_marginEnd="@dimen/dim_20"
+        android:layout_marginBottom="@dimen/dim_20"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

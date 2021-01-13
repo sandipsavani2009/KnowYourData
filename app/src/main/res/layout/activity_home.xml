@@ -7,26 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".features.home.HomeActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <FrameLayout android:id="@+id/fragment_container"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_view"/>
 
        <com.google.android.material.bottomnavigation.BottomNavigationView
            android:id="@+id/bottom_navigation_view"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            app:menu="@menu/bottom_navigation_menu"
-           android:background="@color/colorPrimary"
-           app:itemIconTint="@android:color/white"
-           app:itemTextColor="@android:color/white"
-           app:layout_constraintBottom_toBottomOf="parent"
+           android:background="@android:color/white"
+           app:itemIconTint="@color/blue_0f1d2c_90"
+           app:itemTextColor="@color/bottom_navigation_item_selector"
+           android:layout_alignParentBottom="true"
            />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigation_view"/>
+
+
+    </RelativeLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

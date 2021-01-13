@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.home.about.ui.AboutDataViewPagerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dim_20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purpose"
+            android:textSize="@dimen/sp_32"
+            android:textColor="@color/blue_0f1d2c_90"
+            android:fontFamily="@font/rokkitt_extra_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purpose_desc"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/blue_0f1d2c_90"
+            android:fontFamily="@font/lato_black"
+            android:layout_marginTop="@dimen/dim_20"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -2,4 +2,6 @@
     <string name="app_name">KYD</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="purpose">Purpose</string>
+    <string name="purpose_desc"><![CDATA[To educate Android user about data, how it concerns to privacy & How can it be controlled up to some extend]]></string>
 </resources>

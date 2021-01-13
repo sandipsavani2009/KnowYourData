@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/dim_20">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permissions in Picture ?"
+        android:textSize="@dimen/sp_28"
+        android:textColor="@color/yellow_blink_color"
+        android:fontFamily="@font/rokkitt_extra_bold"
+        android:layout_marginTop="@dimen/dim_100"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes, The purpose of permissions systems on Android is to serve control over data collections by Apps with users' consents"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="@dimen/dim_40"/>
+
+</LinearLayout>

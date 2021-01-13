@@ -1,16 +1,12 @@
 package com.ssv.kyd.features.home
 
 import android.os.Bundle
-import android.view.MenuItem
 import androidx.fragment.app.Fragment
-import com.google.android.material.bottomnavigation.BottomNavigationItemView
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.navigation.NavigationView
 import com.ssv.kyd.R
 import com.ssv.kyd.features.common.BaseActivity
 import com.ssv.kyd.features.helper.FragmentsHelper
-import com.ssv.kyd.features.home.about.AboutFragment
-import com.ssv.kyd.features.home.appData.AppDataFragment
+import com.ssv.kyd.features.home.about.ui.AboutFragment
+import com.ssv.kyd.features.home.appData.ui.AppDataFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity: BaseActivity() {

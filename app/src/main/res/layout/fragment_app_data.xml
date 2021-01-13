@@ -3,7 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".features.home.appData.AppDataFragment"
-    android:background="@android:color/darker_gray">
+    tools:context=".features.home.appData.ui.AppDataFragment"
+    android:background="@color/blue_0f1d2c_90">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/app_data_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
