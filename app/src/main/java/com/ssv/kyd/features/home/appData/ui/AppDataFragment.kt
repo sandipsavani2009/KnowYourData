@@ -23,4 +23,9 @@ class AppDataFragment : Fragment() {
 
         app_data_viewpager.adapter = AppDataViewPagerAdapter(this)
     }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+
+    }
 }
